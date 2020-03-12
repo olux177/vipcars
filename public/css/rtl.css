@@ -1,0 +1,838 @@
+.header__logo {
+    margin-right:0;
+    margin-left:30px;
+}
+
+.primary-menu.show-dropdown-symbol > li.menu-item-has-children > a:after {
+    display:inline-block;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+
+.primary-menu.show-dropdown-symbol ul li.menu-item-has-children > a:after {
+    margin-right:.6em;
+    margin-left:0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.primary-menu > li {
+    float: right;
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.primary-menu > li:last-child {
+    margin-left: 0;
+}
+
+.primary-menu > li > .sub-menu {
+    left:auto;
+    right:-20px;
+}
+
+.primary-menu > li:last-child > .sub-menu {
+    left:-20px;
+    right:auto;
+}
+
+.primary-menu ul .sub-menu {
+    right:100%;
+    left:auto;
+    margin-right:10px;
+    margin-left:0;
+
+    -webkit-transform:translateX(-10px);
+    transform:translateX(-10px);
+}
+
+.primary-menu ul .sub-menu:after {
+    left:auto;
+    right:-10px;
+}
+
+.primary-menu > li:last-child > .sub-menu {
+    left:-20px;
+    right:auto;
+}
+
+@media only screen and (max-width: 1279px) {
+    .primary-menu > li {
+        margin-left:17px;
+        margin-right:0;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .primary-menu > li {
+        margin-left:14px;
+        margin-right:0;
+    }
+}
+
+.mobile-menu-control.active {
+    right:auto;
+    left:30px;
+}
+
+.mobile-menu-container {
+    right:auto;
+    left:0;
+    -webkit-transform:translateX(-100%);
+    transform:translateX(-100%);
+}
+
+.primary-mobile-menu ul {
+    margin-right:20px;
+    margin-left:0;
+}
+
+.primary-mobile-menu.show-dropdown-symbol li.menu-item-has-children > a:after {
+    display:none;
+}
+.primary-mobile-menu.show-dropdown-symbol li.menu-item-has-children > a:before {
+    content:"\f0d7";
+    font-family:"omFont";
+    margin-right:.5em;
+    line-height:1;
+}
+
+body.sidebar--display .content-columns__sidebar {
+    margin-left:0;
+    margin-right:40px;
+}
+
+body.sidebar--display.sidebar--flip .content-columns__sidebar {
+    margin-left:40px;
+    margin-right:0;
+}
+
+.widget_archive ul ul ul ul ul ul ul,
+.widget_categories ul ul ul ul ul ul ul,
+.widget_nav_menu ul ul ul ul ul ul ul,
+.widget_meta ul ul ul ul ul ul ul,
+.widget_pages ul ul ul ul ul ul ul,
+.widget_recent_comments ul ul ul ul ul ul ul,
+.widget_recent_entries ul ul ul ul ul ul ul {
+    margin-left:0;
+    margin-right:-15px;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget_nav_menu li,
+.widget_meta li,
+.widget_pages li,
+.widget_recent_comments li,
+.widget_recent_entries li,
+.widget_rss li{
+    padding-left:0;
+    padding-right:15px;
+}
+
+.widget_archive li:before,
+.widget_categories li:before,
+.widget_nav_menu li:before,
+.widget_meta li:before,
+.widget_pages li:before,
+.widget_recent_comments li:before,
+.widget_recent_entries li:before,
+.widget_rss li:before{
+    display:none;
+}
+
+.widget_archive li:after,
+.widget_categories li:after,
+.widget_nav_menu li:after,
+.widget_meta li:after,
+.widget_pages li:after,
+.widget_recent_comments li:after,
+.widget_recent_entries li:after,
+.widget_rss li:after{
+    content:'\f0da';
+    font-family:'omFont';
+    display:inline-block;
+    float:right;
+    width:0;
+    position:relative;
+    left:auto;
+    right:-9px;
+    top:1px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.sidebar-widget select {
+    padding-right:30px;
+}
+
+#wp-calendar #prev {
+    text-align:right;
+}
+
+#wp-calendar #next {
+    text-align:left;
+}
+
+.cars-slider:after {
+    left:auto;
+    right:50%;
+    margin-right:-17px;
+    margin-left:0;
+}
+
+.cars-slider__item-image {
+    margin:0 -55% 0 -45%;
+}
+
+.cars-slider__item-option {
+    padding-right:64px;
+    padding-left:0;
+}
+
+.cars-slider__item-option:before {
+    right:-64px;
+    left:0;
+    margin-right:0;
+    margin-left:-44px;
+}
+
+.cars-slider__item-price-from {
+    margin-left:.3em;
+    margin-right:0;
+}
+
+.cars-slider__item-price-period {
+    margin-left:0;
+    margin-right:.3em;
+}
+
+.cars-slider__item-option-label,
+.cars-slider__item-option-value {
+    display:inline-block;
+}
+
+.cars-slider__item-option-label {
+    margin-left:.3em;
+}
+
+.cars-slider .owl-prev {
+    left:auto;
+    right:-90px;
+}
+
+.cars-slider .owl-next {
+    right:auto;
+    left:-90px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .cars-slider .owl-prev {
+        right:-60px;
+    }
+
+    .cars-slider .owl-next {
+        left:-60px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .cars-slider .owl-prev {
+        right:30px;
+    }
+
+    .cars-slider .owl-next {
+        left:auto;
+        right:100px;
+    }
+}
+
+.reservation-form:after {
+    left:auto;
+    right:50%;
+    margin-right:-17px;
+    margin-left:0;
+}
+
+.reservation-form__location {
+    float:right;
+}
+
+.reservation-form__label {
+    border-right:1px solid rgba(0,0,0,.2);
+    border-left:0;
+    border-radius:0 2px 2px 0;
+    text-align:right;
+}
+
+.reservation-form__location-label:before,
+.reservation-form__date-label:before {
+    margin-left:7px;
+    margin-right:0;
+    display:inline-block;
+}
+
+.reservation-form__date-wrapper input[type=text] {
+    border-radius:2px 0 0 2px;
+}
+
+.reservation-form .select2-container--default .select2-selection--single {
+    border-radius:2px 0 0 2px;
+    text-align:right;
+}
+
+.reservation-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-right:20px;
+    paddin-left:30px;
+}
+
+.reservation-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right:auto;
+    left:0;
+}
+
+.reservation-form__date {
+    float:right;
+}
+
+.reservation-form__date input {
+    border-radius:2px 0 0 2px;
+}
+
+.reservation-form__time {
+    float:right;
+}
+
+.reservation-form .ajax-loading {
+    left:auto;
+    right:50%;
+    margin-left:0;
+    margin-right:-14px;
+}
+
+.ui-datepicker {
+    margin-right:1px;
+    margin-left:0;
+}
+
+.ui-datepicker-next:before {
+    content:'\e605';
+}
+
+.ui-datepicker-prev:before {
+    content:'\e608';
+}
+
+.reservation-form__custom-location-wrapper .dropdown-arrow {
+    right:auto;
+    left:0;
+}
+
+.reservation-form__custom-location-wrapper .dropdown-arrow:before {
+    left: auto;
+    right: 50%;
+    margin-right: -4px;
+    margin-left: 0;
+}
+
+.your-booking__extras {
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+.your-booking__car-price-period:before {
+    content:'/ ';
+}
+
+.your-booking__car-option {
+    margin-right:0;
+    margin-left:30px;
+}
+
+.your-booking__car-option:last-child {
+    margin-left:0;
+}
+
+.your-booking__car-option:before {
+    margin-left:5px;
+    margin-right:0;
+    display: inline-block;
+}
+
+.your-booking__car-option-label,
+.your-booking__car-option-value {
+    display: inline-block;
+}
+
+.your-booking__car-option-label {
+    margin-left: .3em;
+}
+
+.rent-option-item .om-checkbox {
+    float:right;
+}
+
+.rent-option-label {
+    margin:0 30px 0 0;
+}
+
+.rent-option-price {
+    float:left;
+    margin:0 10px 0 0;
+}
+
+.rent-option-description-link {
+    margin: 0 5px 0 0;
+}
+
+.page-title-container--align-right {
+    text-align:left;
+}
+
+.sub-footer--full .sub-footer__inner {
+    text-align:right;
+}
+
+.post-meta .post-author:before,
+.post-meta .post-comments:before{
+    margin-right:0;
+    margin-left:.5em;
+    display: inline-block;
+}
+
+.post-meta .post-author > *,
+.post-meta .post-comments > * {
+    display: inline-block;
+}
+
+.post-share-button {
+    margin-right:0;
+    margin-left:10px;
+}
+
+.post-share-button:last-child {
+    margin-left:0;
+}
+
+.post-meta-share .post-share {
+    margin-left:0;
+    margin-right:20px;
+}
+
+.blog-post.sticky:before {
+    left:auto;
+    right:-1px;
+}
+
+.blog-post.sticky:after {
+    right:0;
+    left:auto;
+}
+
+select {
+    padding-right:20px;
+    padding-left:30px;
+    background-position:9px center;
+}
+
+.comment-inner {
+    margin-left:0;
+    margin-right:80px;
+}
+
+.comment-inner.depth-1 {
+    margin-right:0;
+}
+
+.comment-inner.depth-2 {
+    margin-right:20px;
+}
+
+.comment-inner.depth-3 {
+    margin-right:40px;
+}
+
+.comment-inner.depth-4 {
+    margin-right:60px;
+}
+
+.comment-pic {
+    float:right;
+}
+
+.comment-inner.with-avatar .comment-meta,
+.comment-inner.with-avatar .comment-text{
+    margin-right:70px;
+    margin-left:0;
+}
+
+.comment-meta .date,
+.comment-meta .reply,
+.comment-meta .edit{
+    margin-right:8px;
+    margin-left:0;
+}
+
+.comment-meta .date:before,
+.comment-meta .reply:before,
+.comment-meta .edit:before {
+    margin-left:8px;
+    margin-right:0;
+    display:inline-block;
+}
+
+.comments-section .nocomments:before {
+    padding-right:0;
+    padding-left:0.5em;
+    display:inline-block;
+}
+
+.comments-section .navigation-prev .navigation-a-inner {
+    padding-right:60px;
+    padding-left:0;
+}
+
+.comments-section .navigation-next .navigation-a-inner {
+    padding-left:60px;
+    padding-right:0;
+}
+
+.comments-section .logged-in-as:after,
+.comments-section .must-log-in:after,
+.comments-section .nocomments:after {
+    left:auto;
+    right:1em;
+}
+
+.comment-form-field:first-child {
+    margin-left:10px;
+    margin-right:0;
+}
+
+.comment-form-field:last-child {
+    margin-right:10px;
+    margin-left:0;
+}
+
+.gallery-sliced-box-2 .img-1,
+.gallery-sliced-box-2 .img-2,
+.gallery-sliced-box-3 .img-1,
+.gallery-sliced-box-3 .img-2,
+.gallery-sliced-box-3 .img-3,
+.gallery-sliced-box-4 .img-1,
+.gallery-sliced-box-4 .img-2,
+.gallery-sliced-box-4 .img-3,
+.gallery-sliced-box-4 .img-4,
+.gallery-sliced-box-5 .img-1,
+.gallery-sliced-box-5 .img-2,
+.gallery-sliced-box-5 .img-3,
+.gallery-sliced-box-5 .img-1,
+.gallery-sliced-box-5 .img-2,
+.gallery-sliced-box-5 .img-3,
+.gallery-sliced-box-5 .img-4,
+.gallery-sliced-box-5 .img-5{
+    float:right;
+}
+
+.navigation-prev {
+    float:right;
+}
+
+.navigation-next {
+    float:left;
+}
+
+.navigation-prev .navigation-a-inner {
+    padding-right:80px;
+    padding-left:0;
+}
+
+.navigation-next .navigation-a-inner {
+    padding-left:80px;
+    padding-right:0;
+}
+
+.navigation-prev a:before {
+    content:"\e608";
+    left:auto;
+    right:0;
+}
+
+.navigation-next a:after {
+    content:"\e605";
+    right:auto;
+    left:0;
+}
+
+.navigation-pages {
+    margin:60px 30px 40px;
+    clear:both;
+}
+
+.navigation-pages .page-numbers {
+    float:right;
+}
+
+.navigation-pages .page-numbers.prev span:before {
+    content:"\e608";
+    margin-left:4px;
+    margin-right:0;
+}
+
+.navigation-pages .page-numbers.next span:before {
+    content:"\e605";
+    margin-right:4px;
+    margin-left:0;
+}
+
+.om-back-to-top {
+    right: auto;
+    left:10px;
+}
+
+.alignleft {
+    float: right;
+    margin: 0 0 1em 20px;
+}
+.alignright {
+    float: left;
+    margin: 0 20px 1em 0;
+}
+
+.content table td,
+.content table th {
+    text-align:right;
+}
+
+.post-password-form label {
+    padding:0 20px 0 0;
+    margin-left:-.6em;
+    margin-right:0;
+}
+
+.post-password-form label input {
+    margin:0 20px 0 0;
+}
+
+.search-results-thumbnail {
+    float:right;
+}
+
+.search-results-list li.with-thumbnail .search-results-desc {
+    margin-right:210px;
+    margin-left:0;
+}
+
+.sitemap ul li {
+    padding-right:1em;
+    padding-left:0;
+}
+
+.sitemap ul li:before {
+    content:"\f0da";
+    left:auto;
+    right:0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.owl-carousel .owl-prev:before,
+.vc_om-logos-controls .om-prev:before {
+    content:'\e608';
+    margin-left:4px;
+    margin-right:0;
+}
+
+.owl-carousel .owl-prev:hover:not(.disabled):before,
+.vc_om-logos-controls .om-prev:hover:before {
+    -webkit-transform:translateX(2px);
+    transform:translateX(2px);
+}
+
+.owl-carousel .owl-next:before,
+.vc_om-logos-controls .om-next:before {
+    content:'\e605';
+    margin-right:4px;
+    margin-left:0;
+}
+
+.owl-carousel .owl-next:hover:not(.disabled):before,
+.vc_om-logos-controls .om-next:hover:before {
+    -webkit-transform:translateX(-2px);
+    transform:translateX(-2px);
+}
+
+.vc_om-services .owl-prev {
+    left:auto;
+    right:-95px;
+}
+
+.vc_om-services .owl-next {
+    right:auto;
+    left:-95px;
+}
+
+.om-about__item-inner {
+    padding-right:33.33%;
+    padding-left:0;
+}
+
+.om-about__pane {
+    left:auto;
+    right:0;
+}
+
+.om-about__pane:after {
+    left:auto;
+    right:100%;
+    border-right:18px solid transparent;
+    border-left:0;
+}
+
+.om-about__media {
+    float:right;
+}
+
+.om-about__media + .om-about__description {
+    margin-left:0;
+    margin-right:30%;
+    padding-left:0;
+    padding-right:30px;
+}
+
+.vc_om-about .owl-prev,
+.vc_om-about .owl-next {
+    right:auto;
+    left:66.66%;
+}
+
+.vc_om-about .owl-prev {
+    margin-left:100px;
+    margin-right:0;
+}
+
+.vc_om-about .owl-next {
+    margin-left:30px;
+    margin-right:0;
+}
+
+.om-persons__img--stand-out .om-persons__img-inner {
+    margin:-6px 0 -6px -6px;
+}
+
+.vc_om-logos.vc_om-logos-layout-carousel .vc_om-logos-container {
+    text-align:right;
+}
+
+.vc_om-logos-controls .om-prev {
+    left:auto;
+    right:0;
+}
+
+.vc_om-logos-controls .om-next {
+    right:auto;
+    left:0;
+}
+
+.om-rental-locations__title {
+    margin-left:30px;
+    margin-right:0;
+}
+
+.vc_om-max-width.om-mw-align-left {
+    margin:0 0 0 auto;
+}
+
+.vc_om-max-width.om-mw-align-right {
+    margin:0 auto 0 0;
+}
+
+.om-wpb .vc_message_box {
+    padding:5px 60px 5px 30px;
+}
+
+.om-wpb .vc_message_box-icon {
+    padding-left:0;
+    padding-right:20px;
+}
+
+.om-wpb .vc_toggle_size_md.vc_toggle_default .vc_toggle_title .vc_toggle_icon {
+    left:auto;
+    right:0;
+}
+
+.om-wpb .vc_toggle_size_md.vc_toggle_default .vc_toggle_title {
+    padding-right: 24.2px;
+    padding-left: 0;
+}
+
+body.om-wpb .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+    left:auto;
+    right:15px;
+}
+
+body.om-wpb .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a,
+body.om-wpb .vc_tta.vc_general.vc_tta-accordion .vc_tta-panel-body {
+    padding-right:45px;
+    padding-left:30px;
+}
+
+body.om-wpb .vc_tta.vc_tta-controls-align-left .vc_tta-panel-heading,
+body.om-wpb .vc_tta.vc_tta-controls-align-left .vc_tta-tabs-container{
+    text-align: right;
+}
+
+body.om-wpb .vc_tta.vc_tta-controls-align-right .vc_tta-panel-heading,
+body.om-wpb .vc_tta.vc_tta-controls-align-right .vc_tta-tabs-container{
+    text-align: left;
+}
+
+body.om-wpb .vc_tta-controls-align-left.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container {
+    margin-right:0;
+}
+
+body.om-wpb .vc_tta-controls-align-right.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container {
+    margin-left:0;
+}
+
+body.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-left.vc_tta-style-classic .vc_tta-tabs-container,
+body.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-left.vc_tta-style-modern .vc_tta-tabs-container {
+    margin-left:-1px;
+    margin-right:0;
+}
+
+body.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-right.vc_tta-style-classic .vc_tta-tabs-container,
+body.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-right.vc_tta-style-modern .vc_tta-tabs-container {
+    margin-left:0;
+    margin-right:-1px;
+}
+
+body.rtl.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-left .vc_tta-tab.vc_active>a {
+    border-left-color:transparent;
+}
+body.rtl.om-wpb .vc_tta-tabs:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-right .vc_tta-tab.vc_active>a {
+    border-right-color:transparent;
+}
+
+.om-wpb .vc_general.vc_cta3.vc_cta3-align-left .vc_cta3-content {
+    text-align:right;
+}
+
+.om-wpb .vc_general.vc_cta3.vc_cta3-align-right .vc_cta3-content {
+    text-align:left;
+}
+
+@media (min-width: 768px) {
+    .rtl.om-wpb .vc_general.vc_cta3.vc_cta3-actions-right .vc_cta3-content {
+        padding-right: 0;
+        padding-left: 28px;
+    }
+    .rtl.om-wpb .vc_general.vc_cta3.vc_cta3-actions-left .vc_cta3-content {
+        padding-right: 28px;
+        padding-left: 0;
+    }
+}
+
+.om-columns .om-column {
+    float:right;
+}

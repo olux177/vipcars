@@ -1,0 +1,140 @@
+@media only screen and (max-width: 959px) {
+    .rtl .reservation-form__location {
+        float:none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .rtl .om-columns .om-column {
+        float:none;
+    }
+    .rtl .om-about__media {
+        float:none;
+    }
+    .rtl .om-about__media + .om-about__description {
+        margin-right:0;
+        padding-right:0;
+    }
+    .rtl .owl-carousel.vc_om-testimonials {
+        margin-left:-30px;
+        margin-right:-30px;
+    }
+    .rtl .om-testimonials__item {
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .rtl .owl-carousel.vc_om-persons {
+        margin-left:-30px;
+        margin-right:-30px;
+    }
+    .rtl .om-persons__content,
+    .rtl .om-persons__img {
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .rtl .om-persons__sep,
+    .rtl .om-persons__img img {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .rtl .navigation-prev .navigation-a-inner {
+        padding-right:55px;
+    }
+
+    .rtl .navigation-next .navigation-a-inner {
+        padding-left:55px;
+    }
+
+    .rtl .navigation-pages .page-numbers {
+        margin:0 0 10px 10px;
+    }
+    .rtl .search-results-list li.with-thumbnail .search-results-desc {
+        margin-right:0;
+    }
+    .rtl .cars-slider__item-option {
+        float:right;
+    }
+    .rtl .cars-slider__item-option {
+        padding-right:45px;
+    }
+
+    .rtl .cars-slider__item-option:before {
+        left:auto;
+        right:-45px;
+    }
+    .rtl .cars-slider__item-option:before {
+        margin-left:-35px;
+    }
+    .rtl .your-booking__extras {
+        margin-right:0;
+    }
+
+    .rtl .cars-slider__item-option-label {
+        display:none;
+    }
+
+    .rtl .cars-slider__item-image {
+        margin:0;
+    }
+
+    .rtl .om-about__item-inner {
+        padding:0;
+    }
+}
+
+
+@media only screen and (max-width: 519px) {
+    .rtl .reservation-form__date,
+    .rtl .reservation-form__time {
+        float:none;
+    }
+    .rtl .comment-pic {
+        float:none;
+    }
+    .rtl .comment-inner.with-avatar .comment-meta,
+    .rtl .comment-inner.with-avatar .comment-text{
+        margin-right:0;
+    }
+    .rtl .comment-inner {
+        margin-right:60px;
+    }
+    .rtl .comment-inner.depth-1 {
+        margin-right:0;
+    }
+
+    .rtl .comment-inner.depth-2 {
+        margin-right:15px;
+    }
+
+    .rtl .comment-inner.depth-3 {
+        margin-right:30px;
+    }
+
+    .rtl .comment-inner.depth-4 {
+        margin-right:45px;
+    }
+    .rtl .gallery-sliced .img-box.img-1,
+    .rtl .gallery-sliced .img-box.img-2,
+    .rtl .gallery-sliced .img-box.img-3,
+    .rtl .gallery-sliced .img-box.img-4,
+    .rtl .gallery-sliced .img-box.img-5 {
+        float:none;
+    }
+
+    .rtl .gallery-masonry .items,
+    .rtl .gallery-grid .items {
+        margin:0;
+    }
+
+    .rtl .gallery-masonry .item,
+    .rtl .gallery-grid .item {
+        float:none;
+    }
+
+    .rtl .gallery-masonry .item img,
+    .rtl .gallery-grid .item img {
+        margin: 0 auto;
+    }
+
+}
+
